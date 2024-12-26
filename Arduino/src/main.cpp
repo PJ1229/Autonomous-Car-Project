@@ -1,20 +1,6 @@
-/*
-  This example connects to an unencrypted WiFi network.
-  Then it prints the MAC address of the WiFi module,
-  the IP address obtained, and other network details.
-
-  created 13 July 2010
-  by dlf (Metodo2 srl)
-  modified 31 May 2012
-  by Tom Igoe
-
-  Find the full UNO R4 WiFi Network documentation here:
-  https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples#connect-with-wpa
- */
 #include <WiFiS3.h>
-
 #include "arduino_secrets.h" 
-///////please enter your sensitive data in the Secret tab/arduino_secrets.h
+
 char ssid[] = SECRET_SSID;        // your network SSID (name)
 char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as key for WEP)
 int status = WL_IDLE_STATUS;     // the WiFi radio's status
@@ -108,7 +94,6 @@ void setup() {
 }
 
 void loop() {
-  // check the network connection once every 10 seconds:
   delay(10000);
   printCurrentNet();
 }

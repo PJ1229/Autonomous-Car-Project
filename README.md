@@ -13,10 +13,12 @@
 <li>ssh into raspi using ip address</li>
 <li>program in raspi folder</li>
 <li>click run to run program</li>
+<br>
 <p>p.s. make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal</p>
 <h3>Open Serial Monitor:</h3>
 <li>open terminal on raspi</li>
 <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>
+<br>
 <p>p.s. the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</p>
 <h2>Devlog:</h2>
 <li>12.23.24 - connected arduino cli with vscode and tested motors</li>

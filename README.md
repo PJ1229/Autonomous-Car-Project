@@ -3,6 +3,21 @@
 <li>create vizualizer</li>
 <li>move to a point while avoiding obstacles</li>
 <h2>Setup:</h2>
+<h3>Arduino Development:</h3>
+<li>open vscode</li>
+<li>open arduino folder using platformio</li>
+<li>open src folder and program in main.cpp</li>
+<li>connect arduino to computer and upload</li>
+<h3>Raspi Remote Development:</h3>
+<li>open vscode</li>
+<li>ssh into raspi using ip address</li>
+<li>program in raspi folder</li>
+<li>click run to run program</li>
+<p>p.s. make sure to connect arduino to raspi using usb</p>
+<h3>Open Serial Monitor:</h3>
+<li>open terminal on raspi</li>
+<li>run "minicom -D /dev/ttyACM0 -b 9600"</li>
+<p>p.s. the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</p>
 <h2>Devlog:</h2>
 <li>12.23.24 - connected arduino cli with vscode and tested motors</li>
 <li>12.24.24 - connected arduino to wifi and sent wifi details via serial monitor</li>

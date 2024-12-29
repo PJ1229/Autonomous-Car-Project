@@ -1,12 +1,13 @@
 import serial
 import time
 
-if __name__ == '__main__':
-    ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
-    ser.reset_input_buffer()
+# Set up the serial connection (replace with the correct port for your Raspberry Pi)
+ser = serial.Serial('/dev/ttyACM0', 9600)  # Adjust for your setup
+time.sleep(2)  # Wait for the Arduino to initialize
 
-    while True:
-        ser.write(b"Hello from Raspberry Pi!\n")
-        line = ser.readline().decode('utf-8').rstrip()
-        print(line)
-        time.sleep(1)
+# Send data to Arduino
+data = "Hello from Raspberry Pi!"
+ser.write(data.encode())  # Send data
+
+# Close the serial connection
+ser.close()

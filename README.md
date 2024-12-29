@@ -12,7 +12,7 @@
 <li>open vscode</li>
 <li>ssh into raspi using ip address</li>
 <li>program in raspi folder</li>
-<li>click run on desired program to run it</li>
+<li>click run on desired program</li>
 <br>
 <p>p.s. make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal</p>
 <h3>Open Serial Monitor:</h3>

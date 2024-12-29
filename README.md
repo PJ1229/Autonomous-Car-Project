@@ -1,7 +1,7 @@
 <h1>Autonomous-Car-Project</h1>
 <h2>Goals:</h2>
 <li>create vizualizer</li>
-<li>move to a point while avoiding obstacles</li>
+<li>move car to a point while avoiding obstacles</li>
 <h2>Setup:</h2>
 <h3>Arduino Development with VS Code:</h3>
 <li>open vscode</li>

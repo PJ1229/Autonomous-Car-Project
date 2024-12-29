@@ -3,12 +3,12 @@
 <li>create vizualizer</li>
 <li>move to a point while avoiding obstacles</li>
 <h2>Setup:</h2>
-<h3>Arduino Development:</h3>
+<h3>Arduino Development with VS Code:</h3>
 <li>open vscode</li>
 <li>open arduino folder using platformio</li>
 <li>open src folder and program in main.cpp</li>
 <li>connect arduino to computer and upload</li>
-<h3>Raspi Remote Development:</h3>
+<h3>Raspi Remote Development with VS Code:</h3>
 <li>open vscode</li>
 <li>ssh into raspi using ip address</li>
 <li>program in raspi folder</li>

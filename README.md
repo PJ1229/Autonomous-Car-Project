@@ -18,6 +18,7 @@
 <h3>Open Serial Monitor:</h3>
 <li>open terminal on raspi</li>
 <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>
+<li>alternative is to open serial monitor via platformio</li>
 <br>
 <p>p.s. the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</p>
 <h2>Devlog:</h2>

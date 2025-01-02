@@ -12,8 +12,8 @@ void setup() {
 void loop() {
   // Check if data is available to read
   if (Serial.available() > 0) {
-    // Read the incoming string
-    String data = Serial.readString();
+    // Read the incoming string until newline character
+    String data = Serial.readStringUntil('\n');
     // Print the received data to the Serial Monitor
     Serial.println("Received from Raspberry Pi: " + data);
   }

@@ -22,6 +22,7 @@
 <br>
 <p>p.s. the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</p>
 <h2>Devlog:</h2>
+<li>1.1.25 - continuous data flow works</li>
 <li>12.29.24 - got the remote ssh setup working and successfully sent data from raspi to arduino using usb</li>
 <li>12.28.24 - started remote ssh connetion from mac to raspi, work in progress</li>
 <li>12.25.24 - set up raspberry pi 5 and os</li>

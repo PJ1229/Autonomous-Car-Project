@@ -5,9 +5,15 @@ import time
 ser = serial.Serial('/dev/ttyACM0', 9600)  # Adjust for your setup
 time.sleep(2)  # Wait for the Arduino to initialize
 
-# Send data to Arduino
+# Send data repeatedly
 data = "Hello from Raspberry Pi!"
-ser.write(data.encode())  # Send data
+try:
+    while True:
+        ser.write(data.encode())  # Send data
+        print(f"Sent: {data}")
+        time.sleep(1)  # Adjust the delay as needed
+except KeyboardInterrupt:
+    print("Stopping the data transmission.")
 
 # Close the serial connection
 ser.close()

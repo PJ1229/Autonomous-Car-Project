@@ -14,7 +14,7 @@
 <li>program in raspi folder</li>
 <li>click run on desired program</li>
 <br>
-<p>p.s. make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal</p>
+<p>p.s. make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal. the cpp files need to be built. run in terminal: g++ filename.cpp -o filename. then run the executable via terminal: ./filename.</p>
 <h3>Open Serial Monitor:</h3>
 <li>open terminal on raspi</li>
 <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>
@@ -22,6 +22,7 @@
 <br>
 <p>p.s. the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</p>
 <h2>Devlog:</h2>
+<li>1.3.24 - able to send and recieve wsad inputs from raspi to arduino to run rc mode</li>
 <li>1.1.25 - continuous data flow works, starting lidar connection</li>
 <li>12.29.24 - got the remote ssh setup working and successfully sent data from raspi to arduino using usb</li>
 <li>12.28.24 - started remote ssh connetion from mac to raspi, work in progress</li>

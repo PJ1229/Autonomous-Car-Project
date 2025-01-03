@@ -1,7 +1,7 @@
 import PyLidar3
 import time
 
-port = '/dev/ttyUSB0'  # Replace with your port
+port = '/dev/ttyUSB0'
 lidar = PyLidar3.YdLidarX4(port)
 
 try:

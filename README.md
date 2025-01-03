@@ -16,7 +16,7 @@
 <br>
 <p>Notes:</p>
   <li>make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal. </li>
-  <li>the cpp files need to be built. run in terminal: g++ filename.cpp -o filename. then run the executable via terminal: ./filename.</li>
+  <li>the cpp files need to be built. run in linux terminal: g++ filename.cpp -o filename. then run the executable via terminal: ./filename.</li>
 <h3>Open Serial Monitor:</h3>
   <li>open terminal on raspi</li>
   <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>

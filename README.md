@@ -6,7 +6,7 @@
 <h3>Arduino Development with VS Code:</h3>
 <li>open vscode</li>
 <li>open arduino folder using platformio</li>
-<li>open src folder and program in main.cpp</li>
+<li>open src folder and place cpp files in it</li>
 <li>connect arduino to computer and upload</li>
 <h3>Rasberry Pi Remote Development with VS Code:</h3>
 <li>open vscode</li>
@@ -14,7 +14,7 @@
 <li>program in raspi folder</li>
 <li>click run on desired program</li>
 <br>
-<p>p.s. make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal. the cpp files need to be built. run in terminal: g++ filename.cpp -o filename. then run the executable via terminal: ./filename.</p>
+<p>p.s. make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal. <br>the cpp files need to be built. run in terminal: g++ filename.cpp -o filename. then run the executable via terminal: ./filename.</p>
 <h3>Open Serial Monitor:</h3>
 <li>open terminal on raspi</li>
 <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>

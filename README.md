@@ -22,7 +22,7 @@
   <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>
   <li>alternative is to open serial monitor via platformio or remotely via ssh</li>
 <br>
-<p>Notes</p>
+<p>Notes:</p>
   <li>the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</li>
 <h2>Devlog:</h2>
   <li>1.3.24 - able to send and recieve wsad inputs from raspi to arduino to run rc mode</li>

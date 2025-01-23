@@ -26,6 +26,10 @@
 <h3>Run ROS2 Humble via Docker on Linux:</h3>
 <li>run "docker run -it --rm ros:humble" in the terminal</li>
 
+<h3>Setup Hotspot</h3>
+<li>connect to same network on raspi & computer</li>
+<li>for remote development, ssh on computer</li>
+
 <h3>Open Serial Monitor:</h3>
   <li>open terminal on raspi</li>
   <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>

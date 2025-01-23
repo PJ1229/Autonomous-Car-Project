@@ -1,13 +1,18 @@
 <h1>Autonomous-Car-Project</h1>
+
 <h2>Goals:</h2>
   <li>create vizualizer</li>
   <li>move car to a point while avoiding obstacles</li>
+
+
 <h2>Setup:</h2>
+
 <h3>Arduino Development with VS Code:</h3>
   <li>open vscode</li>
   <li>open arduino folder using platformio</li>
   <li>open src folder and place cpp files in it</li>
   <li>connect arduino to computer and upload</li>
+
 <h3>Rasberry Pi Remote Development with VS Code:</h3>
   <li>open vscode</li>
   <li>ssh into raspi using ip address</li>
@@ -17,9 +22,10 @@
 <p>Notes:</p>
   <li>make sure to connect arduino to raspi using usb. to check ip address of raspi, run "hostname -I" in raspi terminal. </li>
   <li>the cpp files need to be built. run in linux terminal: g++ filename.cpp -o filename. then run the executable via terminal: ./filename.</li>
+
 <h3>Run ROS2 Humble via Docker on Linux:</h3>
 <li>run "docker run -it --rm ros:humble" in the terminal</li>
-<br>
+
 <h3>Open Serial Monitor:</h3>
   <li>open terminal on raspi</li>
   <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>
@@ -27,7 +33,9 @@
 <br>
 <p>Notes:</p>
   <li>the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</li>
+
 <h2>Devlog:</h2>
+  <li>1.22.24 - started setting up ros & lidar</li>
   <li>1.4.24 - able to run motors with rc mode</li>
   <li>1.3.24 - able to send and recieve wsad inputs from raspi to arduino to run rc mode</li>
   <li>1.1.25 - continuous data flow works, starting lidar connection</li>

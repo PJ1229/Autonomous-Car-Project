@@ -55,7 +55,7 @@
   <li>alternative is to open serial monitor via platformio or remotely via ssh</li>
 <br>
 <p>Notes:</p>
-  <li>the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use ls/dev/tty* in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</li>
+  <li>the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use "ls /dev/tty*" in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</li>
 
 <h2>Devlog:</h2>
   <li>1.22.24 - started setting up ros & lidar</li>

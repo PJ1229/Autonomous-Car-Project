@@ -44,7 +44,11 @@
     <li>pip install .</li>
   </ul>
 </li>
-
+<li>now you can cd into the python examples folder and run lidar examples</li>
+<br>
+<p>Notes:</p>
+  <li>make sure to update the /dev/tty* port in the python code and install all necessary libraries</li>
+      
 <h3>Open Serial Monitor:</h3>
   <li>open terminal on raspi</li>
   <li>run "minicom -D /dev/ttyACM0 -b 9600"</li>

@@ -26,19 +26,23 @@
 <h3>Setup YDLidar X4 with Raspi</h3>
 <li>install git, python, cmake</li>
 <li>run "git clone https://github.com/YDLIDAR/YDLidar-SDK.git" in the raspi linux terminal</li>
-<li>build YDLidar-SDK by running the following commands int raspi linux terminal<br>
-  <li>cd YDLidar-SDK<\li>
-  <li>mkdir build<\li>
-  <li>cd build<\li>
-  <li>cmake ..<\li>
-  <li>make<\li>
-  <li>sudo make install<\li>
+<li>build YDLidar-SDK by running the following commands int raspi linux terminal
+  <ul>
+    <li>cd YDLidar-SDK<\li>
+    <li>mkdir build<\li>
+    <li>cd build<\li>
+    <li>cmake ..<\li>
+    <li>make<\li>
+    <li>sudo make install<\li>
+  </ul>
 </li>
-<li>for some reason i had to use a virtual environment, this is how i did it:<br>
-  <li>python3 -m venv myenv</li>
-  <li>source myenv/bin/activate</li>
-  <li>myenv\Scripts\activate</li>
-  <li>pip install .</li>
+<li>for some reason i had to use a virtual environment, this is how i did it:
+  <ul>
+    <li>python3 -m venv myenv</li>
+    <li>source myenv/bin/activate</li>
+    <li>myenv\Scripts\activate</li>
+    <li>pip install .</li>
+  </ul>
 </li>
 
 <h3>Open Serial Monitor:</h3>

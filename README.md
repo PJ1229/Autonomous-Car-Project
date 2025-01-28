@@ -40,7 +40,6 @@
   <ul>
     <li>python3 -m venv myenv</li>
     <li>source myenv/bin/activate</li>
-    <li>myenv\Scripts\activate</li>
     <li>pip install .</li>
   </ul>
 </li>

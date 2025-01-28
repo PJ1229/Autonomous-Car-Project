@@ -5,6 +5,12 @@
   <li>move car to a point while avoiding obstacles</li>
 
 
+<h2>Equipment:</h2>
+  <li>YDLidar X4Pro</li>
+  <li>Raspberry Pi 5</li>
+  <li>Arduino Uno R4 Wifi</li>
+  <li>2 Motors</li>
+
 <h2>Setup:</h2>
 
 <h3>Arduino Development with VS Code:</h3>
@@ -28,12 +34,12 @@
 <li>run "git clone https://github.com/YDLIDAR/YDLidar-SDK.git" in the raspi linux terminal</li>
 <li>build YDLidar-SDK by running the following commands int raspi linux terminal
   <ul>
-    <li>cd YDLidar-SDK
-    <li>mkdir build
-    <li>cd build
-    <li>cmake ..
-    <li>make
-    <li>sudo make install
+    <li>cd YDLidar-SDK</li>
+    <li>mkdir build</li>
+    <li>cd build</li>
+    <li>cmake ..</li>
+    <li>make</li>
+    <li>sudo make install</li>
   </ul>
 </li>
 <li>for some reason i had to use a virtual environment, this is how i did it:
@@ -57,6 +63,7 @@
   <li>the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use "ls /dev/tty*" in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</li>
 
 <h2>Devlog:</h2>
+  <li>1.28.24 - still working on lidar connection, found a user manual so will use that from now on</li>
   <li>1.23.24 - got lidar connected and tested python codes, seems like it should work but am getting lidar health code -1. thinking this could have to do w power? idk</li>
   <li>1.22.24 - started setting up ros & lidar</li>
   <li>1.4.24 - able to run motors with rc mode</li>

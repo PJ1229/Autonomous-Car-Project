@@ -5,13 +5,13 @@
   <li>move car to a point while avoiding obstacles</li>
 
 
-<h2>Equipment:</h2>
+<h2>Hardware Equipment:</h2>
   <li>YDLidar X4Pro</li>
   <li>Raspberry Pi 5</li>
   <li>Arduino Uno R4 Wifi</li>
-  <li>2 Motors</li>
+  <li>2 Motors & Motor Controller</li>
 
-<h2>Setup:</h2>
+<h2>Software Development:</h2>
 
 <h3>Arduino Development with VS Code:</h3>
   <li>open vscode</li>

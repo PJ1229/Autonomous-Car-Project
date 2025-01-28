@@ -28,12 +28,12 @@
 <li>run "git clone https://github.com/YDLIDAR/YDLidar-SDK.git" in the raspi linux terminal</li>
 <li>build YDLidar-SDK by running the following commands int raspi linux terminal
   <ul>
-    <li>cd YDLidar-SDK<\li>
-    <li>mkdir build<\li>
-    <li>cd build<\li>
-    <li>cmake ..<\li>
-    <li>make<\li>
-    <li>sudo make install<\li>
+    <li>cd YDLidar-SDK
+    <li>mkdir build
+    <li>cd build
+    <li>cmake ..
+    <li>make
+    <li>sudo make install
   </ul>
 </li>
 <li>for some reason i had to use a virtual environment, this is how i did it:

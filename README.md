@@ -63,7 +63,7 @@
   <li>the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use "ls /dev/tty*" in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</li>
 
 <h2>Devlog:</h2>
-  <li>1.28.24 - still working on lidar connection, found a <a href="https://www.ydlidar.com/Public/upload/files/2024-05-07/YDLIDAR%20X4PRO%20Lidar%20User%20Manual%20V1.1(240507).pdf">user manual</a> so will use that from now on</li>
+  <li>1.28.24 - still working on lidar connection, found a <a target=blank href="https://www.ydlidar.com/Public/upload/files/2024-05-07/YDLIDAR%20X4PRO%20Lidar%20User%20Manual%20V1.1(240507).pdf">user manual</a> so will use that from now on</li>
   <li>1.23.24 - got lidar connected and tested python codes, seems like it should work but am getting lidar health code -1. thinking this could have to do w power? idk</li>
   <li>1.22.24 - started setting up ros & lidar</li>
   <li>1.4.24 - able to run motors with rc mode</li>

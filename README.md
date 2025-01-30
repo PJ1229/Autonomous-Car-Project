@@ -3,7 +3,6 @@
 <h2>Goals:</h2>
 <p>My personal goal when making this project is to better understand the robotics integration between software, middleware, and hardware. As far as the software, I hope to better understand pathfinding algorithms and create an optimized program for an autonomous vehicle. For the middleware, I aim to efficiently transmit data between the Sensors, Raspberry Pi, Arduino, and Motors. Finally, I hope to make a strong car design using CAD. For the project, the goal is to make the autonomous car drive from any location to a beacon while avoiding obstacles. Another idea would be to map a racetrack using the Lidar and a RC mode, then race it using an optimal path.</p>
 <h2>Hardware & Software:</h2>
-<p>Hardware Equipment:</p>
   <li><a href="https://www.amazon.com/EC-Buying-Triangular-Raspberry-Navigation/dp/B0D3CWVSZX/ref=sr_1_15?crid=3KYOXXG0H5L6R&dib=eyJ2IjoiMSJ9.q0fFSRp2NhjCPqdb-Ue0i20DFFYKXJM8SYuYNmLVNs7eoJizFDGPkZ3H7y8rpdTfMKnKzjQuwse7oYMTptDQ0j9y3jzi7dMJSvzdf5ihf9scB0Ga8appFI5-2VthZUQPVfE8BBw2nh6Eg8vml0kVn27qG7k_AI4TKSmyYgl1BE6wpY43e_TVby9bmBcvt8bh6HjYvywSQD7515LOy6ro1GnuTPKmsWEdWpBXdNT_4KE.n1ZtlXItU9QCjTaVxrrIKE-WVMfK4FxE46iNcQbVtkE&dib_tag=se&keywords=lidar+sensor+arduino&qid=1731778056&sprefix=lidar%2Caps%2C189&sr=8-15">YDLidar X4Pro</a></li>
   <li>Raspberry Pi 5</li>
   <li>Arduino Uno R4 Wifi</li>

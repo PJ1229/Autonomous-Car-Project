@@ -1,9 +1,7 @@
 <h1>Autonomous-Car-Project</h1>
 <hr>
 <h2>Goals:</h2>
-<p>My personal goal when making this project is to better understand the robotics integration between software, middleware, and hardware. As far as the software, I hope to better understand pathfinding algorithms and create an optimized program for an autonomous vehicle. For the middleware, I aim to efficiently transmit data between the Sensors, Raspberry Pi, Arduino, and Motors. Finally, I hope to make a strong car design using CAD.</p>
-
-<p>For the project, the goal is to make the autonomous car drive from any location to a beacon while avoiding obstacles. Another idea would be to map a racetrack using the Lidar and a RC mode, then race it using an optimal path.</p>
+<p>My personal goal when making this project is to better understand the robotics integration between software, middleware, and hardware. As far as the software, I hope to better understand pathfinding algorithms and create an optimized program for an autonomous vehicle. For the middleware, I aim to efficiently transmit data between the Sensors, Raspberry Pi, Arduino, and Motors. Finally, I hope to make a strong car design using CAD. For the project, the goal is to make the autonomous car drive from any location to a beacon while avoiding obstacles. Another idea would be to map a racetrack using the Lidar and a RC mode, then race it using an optimal path.</p>
 <hr>
 <h2>Hardware Equipment:</h2>
   <li>YDLidar X4Pro</li>

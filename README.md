@@ -1,16 +1,16 @@
 <h1>Autonomous-Car-Project</h1>
-
+<hr>
 <h2>Goals:</h2>
   <li>create vizualizer</li>
   <li>move car to a point while avoiding obstacles</li>
 
-
+<hr>
 <h2>Hardware Equipment:</h2>
   <li>YDLidar X4Pro</li>
   <li>Raspberry Pi 5</li>
   <li>Arduino Uno R4 Wifi</li>
   <li>2 Motors & Motor Controller</li>
-
+<hr>
 <h2>Software Development:</h2>
 
 <h3>Arduino Development with VS Code:</h3>
@@ -61,7 +61,7 @@
 <br>
 <p>Notes:</p>
   <li>the /dev/ttyACM0 is determined by which usb port the arduino is connected to, use "ls /dev/tty*" in raspi terminal to check. additionally, the 9600 is the serial monitor. you cannot run multiple serial monitors</li>
-
+<hr>
 <h2>Devlog:</h2>
   <li>1.28.24 - still working on lidar connection, found a <a href="https://www.ydlidar.com/Public/upload/files/2024-05-07/YDLIDAR%20X4PRO%20Lidar%20User%20Manual%20V1.1(240507).pdf">user manual</a> so will use that from now on</li>
   <li>1.23.24 - got lidar connected and tested python codes, seems like it should work but am getting lidar health code -1. thinking this could have to do w power? idk</li>

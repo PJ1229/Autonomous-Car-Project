@@ -1,6 +1,6 @@
 <h1>Autonomous-Car-Project</h1>
-<hr>
 <h2>Goals:</h2>
+<hr>
 <p>My personal goal when making this project is to better understand the robotics integration between software, middleware, and hardware. As far as the software, I hope to better understand pathfinding algorithms and create an optimized program for an autonomous vehicle. For the middleware, I aim to efficiently transmit data between the Sensors, Raspberry Pi, Arduino, and Motors. Finally, I hope to make a strong car design using CAD.</p>
 
 <hr>

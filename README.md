@@ -8,7 +8,7 @@
   <li><a href="https://www.amazon.com/AEDIKO-Motor-Gearbox-Shaft-200RPM/dp/B099Z85573/ref=asc_df_B099Z85573?mcid=22741f950f8e35a582f1a407dade4a8a&tag=hyprod-20&linkCode=df0&hvadid=693612458080&hvpos=&hvnetw=g&hvrand=2851401784511676869&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016921&hvtargid=pla-1469864848772&psc=1">Motors</a> & <a href="https://www.amazon.com/BOJACK-H-Bridge-Controller-Intelligent-Mega2560/dp/B0C5JCF5RS/ref=pd_bxgy_thbs_d_sccl_1/146-5344172-2148713?pd_rd_w=SPyvN&content-id=amzn1.sym.53b72ea0-a439-4b9d-9319-7c2ee5c88973&pf_rd_p=53b72ea0-a439-4b9d-9319-7c2ee5c88973&pf_rd_r=B4KPMTSAA9K51S5KVXBF&pd_rd_wg=MQ7kp&pd_rd_r=753ce9ad-7da6-4532-8f69-39f148b448f4&pd_rd_i=B0C5JCF5RS&psc=1">Motor Controllers</a></li>
   <li><a href="https://platformio.org/">PlatformIO</a> for VSCode Arduino Software Development</li>
 <h2>Software Development:</h2>
-
+<p><a href="https://github.com/PJ1229/Autonomous-Car-Project/blob/main/Setup.md">Link to software development setup & notes.</a></p>
 <h2>Devlog:</h2>
   <li>1.28.24 - still working on lidar connection, found a <a href="https://www.ydlidar.com/Public/upload/files/2024-05-07/YDLIDAR%20X4PRO%20Lidar%20User%20Manual%20V1.1(240507).pdf">user manual</a> so will use that from now on</li>
   <li>1.23.24 - got lidar connected and tested python codes, seems like it should work but am getting lidar health code -1. thinking this could have to do w power? idk</li>

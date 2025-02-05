@@ -1,5 +1,3 @@
-<h2>Software Development:</h2>
-
 <h3>Arduino Development with VS Code:</h3>
   <li>open vscode</li>
   <li>open arduino folder using platformio</li>

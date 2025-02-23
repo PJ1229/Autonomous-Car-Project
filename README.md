@@ -10,11 +10,12 @@
 <h2>Software Development:</h2>
 <p><a href="https://github.com/PJ1229/Autonomous-Car-Project/blob/main/Setup.md">Link to setup</a></p>
 <h2>Devlog:</h2>
-  <li>1.28.24 - still working on lidar connection, found a <a href="https://www.ydlidar.com/Public/upload/files/2024-05-07/YDLIDAR%20X4PRO%20Lidar%20User%20Manual%20V1.1(240507).pdf">user manual</a> so will use that from now on</li>
-  <li>1.23.24 - got lidar connected and tested python codes, seems like it should work but am getting lidar health code -1. thinking this could have to do w power? idk</li>
-  <li>1.22.24 - started setting up ros & lidar</li>
-  <li>1.4.24 - able to run motors with rc mode</li>
-  <li>1.3.24 - able to send and recieve wsad inputs from raspi to arduino to run rc mode</li>
+  <li>2.23.25 - switched from debian to ubuntu 22.04 and raspi5 to raspi4 so able to run ros2 humble, still working on lidar setup</li>
+  <li>1.28.25 - still working on lidar connection, found a <a href="https://www.ydlidar.com/Public/upload/files/2024-05-07/YDLIDAR%20X4PRO%20Lidar%20User%20Manual%20V1.1(240507).pdf">user manual</a> so will use that from now on</li>
+  <li>1.23.25 - got lidar connected and tested python codes, seems like it should work but am getting lidar health code -1. thinking this could have to do w power? idk</li>
+  <li>1.22.25 - started setting up ros & lidar</li>
+  <li>1.4.25 - able to run motors with rc mode</li>
+  <li>1.3.25 - able to send and recieve wsad inputs from raspi to arduino to run rc mode</li>
   <li>1.1.25 - continuous data flow works, starting lidar connection</li>
   <li>12.29.24 - got the remote ssh setup working and successfully sent data from raspi to arduino using usb</li>
   <li>12.28.24 - started remote ssh connetion from mac to raspi, work in progress</li>
